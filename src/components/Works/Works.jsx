@@ -1,7 +1,5 @@
 import React, { useContext } from "react";
 import "./Works.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
 import Fujitsu from "../../img/Fujitsu.png";
 import mobisoft from "../../img/mobisoft-infotech.png";
 import pmr from "../../img/pmr.png";
