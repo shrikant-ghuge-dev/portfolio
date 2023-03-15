@@ -3,9 +3,9 @@ import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
 import yourip from "../../img/You-Rip.png";
-import Ecommerce from "../../img/ecommerce.png";
-import HOC from "../../img/hoc.png";
-import MusicApp from "../../img/musicapp.png";
+import thecookaway from "../../img/theCookAway.png";
+import AdminWellprompt from "../../img/Wellprompt-admin.png";
+import adminyourip from "../../img/You-Rip-Admin-Panel.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -24,16 +24,28 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={yourip} alt="" />
+          <a href="https://www.yourip.com" target="_blank" rel="noreferrer">
+            <img src={yourip} alt="yourip" />
+            <div className="text-center">YouRip</div>
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          <a href="https://www.thecookaway.com" target="_blank" rel="noreferrer">
+            <img src={thecookaway} alt="thecookaway" />
+            <div className="text-center">TheCookAway</div>
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
+          <a href="http://admin.yourip.com" target="_blank" rel="noreferrer">
+            <img src={adminyourip} alt="yourip admin panel" />
+            <div className="text-center">YouRip Admin Panel</div>
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HOC} alt="" />
+          <a href="https://app.wellprompt.com" target="_blank" rel="noreferrer">
+            <img src={AdminWellprompt} alt="Admin Wellprompt" />
+            <div className="text-center">Wellprompt Admin Panel</div>
+          </a>
         </SwiperSlide>
       </Swiper>
     </div>
