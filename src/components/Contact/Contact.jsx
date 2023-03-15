@@ -45,10 +45,11 @@ const Contact = () => {
       </div>
       {/* right side form */}
       <div className="c-right">
-        <form name="contact" method="POST" data-netlify="true" onSubmit="submit">
-          <input type="text" name="user_name" className="user" placeholder="Name" />
-          <input type="email" name="user_email" className="user" placeholder="Email" />
-          <textarea name="message" className="user" placeholder="Message" />
+        <form name="contact" method="post" onSubmit="submit">
+          <input type="hidden" name="form-name" value="contact" />
+          <input type="text" name="user_name" className="user" placeholder="Name" required />
+          <input type="email" name="user_email" className="user" placeholder="Email" required />
+          <textarea name="message" className="user" placeholder="Message" required />
           <input type="submit" value="Send" className="button" />
           {/* <span>{done && "Thanks for Contacting me"}</span> */}
           <div
