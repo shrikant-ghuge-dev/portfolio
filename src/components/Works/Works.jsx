@@ -25,14 +25,15 @@ const Works = () => {
           </span>
           <span>Companies</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+            I have worked with a diverse range of companies across various industries,
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
+            including startups, small businesses, and large corporations. These experiences
             <br />
-            y dummy text of printingLorem
+            have enabled me to develop customized solutions to meet the specific needs of
             <br />
-            ispum is simpley dummy text of printing
+            each client. I am proud of the work I have done and look forward to collaborating
+            <br />
+            with organizations of all sizes and backgrounds.
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>

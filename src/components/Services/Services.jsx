@@ -27,9 +27,15 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>specialities</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+          My specialties lie in the intersection of web design and development,
           <br />
-          ispum is simpley dummy text of printing
+          with a focus on creating responsive and user-friendly websites.
+          <br />
+          As a frontend developer, I have extensive experience in Angular, React,
+          <br />
+          and other relevant web technologies. Additionally, I also have experience
+          <br />
+          with backend using Nodejs and MongoDB.
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -59,7 +65,7 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Backend"}
-            detail={"Have good understanding of Nodejs, Express, MongoDB for backend development"}
+            detail={"Proficient in backend development using Nodejs, Express, and MongoDB."}
           />
         </motion.div>
         {/* 3rd */}

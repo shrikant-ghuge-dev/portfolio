@@ -7,6 +7,7 @@ import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
+import Text from "../Text/Text";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
@@ -29,10 +30,13 @@ const Intro = () => {
           {/* yahan change hy darkmode ka */}
           <h1 style={{ color: darkMode ? "white" : "" }}>Hello<span className='wave'>👋 </span></h1>
           <h2>Shrikant Ghuge</h2>
-          <span>
-            Frontend Developer with high level of experience in web designing
-            and development, I build websites with a focus on providing the experience for everyone using them and responsiveness. Curious to learn more about developing scalable distribution systems, love problem solving, and care about writing and maintainable code.
-          </span>
+          <p>
+            As an experienced frontend developer with a strong background in web design and development,
+            I specialize in creating websites that prioritize user experience and responsiveness.
+            My passion for problem-solving drives me to continuously explore new technologies, and
+            I am committed to writing code that is maintainable and efficient.
+          </p>
+          <Text />
         </div>
         <Link to="contact" smooth={true} spy={true}>
           <button className="button i-button">Hire me</button>

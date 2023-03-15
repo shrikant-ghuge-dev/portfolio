@@ -29,8 +29,9 @@
 
 .awesome> :nth-child(3) {
   color: var(--gray);
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 1rem;
+  line-height: 1.5;
 }
 
 .s-button {
