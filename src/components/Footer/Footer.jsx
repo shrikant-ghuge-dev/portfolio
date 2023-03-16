@@ -27,6 +27,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
+      <div className="f-content b16">&copy; Copyright 2023 shrikant-ghuge.netlify.app</div>
     </div>
   );
 };
