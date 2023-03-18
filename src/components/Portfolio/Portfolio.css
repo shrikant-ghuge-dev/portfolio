@@ -50,3 +50,13 @@
 a {
   text-decoration: none;
 }
+
+@media screen and (max-width: 480px) {
+  .swiper-slide {
+    width: 200px !important;
+  }
+
+  .portfolio span {
+    font-size: 35px;
+  }
+}

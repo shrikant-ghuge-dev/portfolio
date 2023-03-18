@@ -25,7 +25,7 @@ const Services = () => {
       <div className="awesome">
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>specialities</span>
+        <span>Specialities</span>
         <spane>
           My specialties lie in the intersection of web design and development,
           <br />

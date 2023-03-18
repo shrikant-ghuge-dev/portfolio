@@ -164,6 +164,7 @@
     flex-direction: column;
     gap: 7rem;
     height: 64rem;
+    margin-top: 1rem;
   }
 
   .i-right {
@@ -179,5 +180,21 @@
     /* display: none; */
     top: -7rem !important;
     ;
+  }
+
+  .i-name>:first-child {
+    font-size: 35px;
+  }
+
+  .wave {
+    font-size: 35px;
+  }
+
+  .i-name>:nth-child(2) {
+    font-size: 35px;
+  }
+
+  .i-icons {
+    margin-top: 1rem;
   }
 }

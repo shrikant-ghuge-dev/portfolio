@@ -161,4 +161,12 @@
     left: 8rem !important;
   }
 
+  .awesome> :nth-child(1) {
+    font-size: 35px;
+  }
+
+  .awesome> :nth-child(2) {
+    font-size: 35px;
+  }
+
 }
