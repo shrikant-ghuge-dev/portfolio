@@ -5,7 +5,20 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
-  <!-- <meta name="description" content="Web site created using create-react-app" /> -->
+  <link rel="icon" href="%PUBLIC_URL%/img/favicon.ico" />
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+  <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+  <script type="text/javascript">
+    algoliasearchNetlify({
+      appId: 'VDZTD8V64Q',
+      apiKey: '<YOUR_ALGOLIA_SEARCH_API_KEY>',
+      siteId: '57152957-d60d-4df6-9ff3-e3a09548e99d',
+      branch: 'master',
+      selector: 'div#search',
+    });
+  </script>
   <style>
     @font-face {
       font-family: Gumela;
