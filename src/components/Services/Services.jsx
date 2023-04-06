@@ -26,7 +26,7 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>Specialities</span>
-        <spane>
+        <span>
           My specialties lie in the intersection of web design and development,
           <br />
           with a focus on creating responsive and user-friendly websites.
@@ -36,7 +36,7 @@ const Services = () => {
           and other relevant web technologies. Additionally, I also have experience
           <br />
           with backend using Nodejs and MongoDB.
-        </spane>
+        </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
         </a>
