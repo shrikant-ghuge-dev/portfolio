@@ -1,14 +1,10 @@
-import Navbar from "./components/Navbar/Navbar";
-import Intro from "./components/Intro/Intro";
-import Services from "./components/Services/Services";
+
 import "./App.css";
-import Experience from "./components/Experience/Experience";
-import Works from "./components/Works/Works";
-import Portfolio from "./components/Portfolio/Portfolio";
-import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import NoMatch from "./components/NoMatch/404";
+import Root from "./components/Root";
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -20,15 +16,11 @@ function App() {
         color: darkMode ? "white" : "",
       }}
     >
-      <Navbar />
-      <Intro />
-      <Services />
-      <Experience />
-      <Works />
-      <Portfolio />
-      {/* <Testimonial /> */}
-      <Contact />
-      <Footer />
+
+      <Routes>
+        <Route path="/" element={<Root />} />
+        <Route path="*" element={<NoMatch />} />
+      </Routes>
     </div>
   );
 }

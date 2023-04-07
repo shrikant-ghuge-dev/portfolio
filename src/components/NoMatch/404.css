@@ -1,0 +1,24 @@
+.img {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    height: 97vh;
+    display: grid;
+    align-items: center;
+}
+
+.middle {
+    text-align: center;
+}
+
+.link {
+    font-size: 6px;
+}
+
+.heading {
+    color: var(--orange);
+    font-weight: bold;
+}
