@@ -2,7 +2,7 @@
 import "./App.css";
 import { useContext } from "react";
 import { themeContext } from "./Context";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import NoMatch from "./components/NoMatch/404";
 import Root from "./components/Root";
 function App() {
