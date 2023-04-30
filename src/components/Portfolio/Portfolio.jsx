@@ -6,6 +6,7 @@ import yourip from "../../img/You-Rip.png";
 import thecookaway from "../../img/theCookAway.png";
 import AdminWellprompt from "../../img/Wellprompt-admin.png";
 import adminyourip from "../../img/You-Rip-Admin-Panel.png";
+import speechToText from "../../img/Speech-to-Text.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -45,6 +46,13 @@ const Portfolio = () => {
           <a href="https://app.wellprompt.com" target="_blank" rel="noreferrer">
             <img src={AdminWellprompt} alt="Admin Wellprompt" />
             <div className="text-center">Wellprompt Admin Panel</div>
+          </a>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <a href="https://speechscribe.netlify.app/" target="_blank" rel="noreferrer">
+            <img src={speechToText} alt="Speech to text" />
+            <div className="text-center">Speech to Text</div>
           </a>
         </SwiperSlide>
       </Swiper>
