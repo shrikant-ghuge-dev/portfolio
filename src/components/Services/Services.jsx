@@ -35,7 +35,7 @@ const Services = () => {
           <br />
           and other relevant web technologies. Additionally, I also have experience
           <br />
-          with backend using Nodejs and MongoDB.
+          with backend using Nodejs, SpringBoot, Nextjs and MongoDB.
         </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
