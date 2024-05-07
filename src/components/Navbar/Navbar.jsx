@@ -8,7 +8,6 @@ const navbar = () => {
     <div className="n-wrapper" id="Navbar">
       {/* left */}
       <div className="n-left">
-        {/* <div className="n-name">Shrkant Ghuge</div> */}
         <div className="n-logo"><img src={logo} alt="sg-logo" /></div>
         <Toggle />
       </div>
@@ -23,7 +22,7 @@ const navbar = () => {
             </li>
             <li>
               <Link to="services" spy={true} smooth={true}>
-                Services
+                Skills
               </Link>
             </li>
             <li>
