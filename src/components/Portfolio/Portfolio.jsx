@@ -8,7 +8,7 @@ import AdminWellprompt from "../../img/Wellprompt-admin.png";
 import adminyourip from "../../img/You-Rip-Admin-Panel.png";
 import speechToText from "../../img/Speech-to-Text.png";
 import qrCodeScanner from "../../img/Qrcodescanner.PNG";
-import yoom from "../../img/Yoom.PNG";
+import yoom from "../../img/Yoom.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
