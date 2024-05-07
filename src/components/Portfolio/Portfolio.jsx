@@ -7,7 +7,8 @@ import thecookaway from "../../img/theCookAway.png";
 import AdminWellprompt from "../../img/Wellprompt-admin.png";
 import adminyourip from "../../img/You-Rip-Admin-Panel.png";
 import speechToText from "../../img/Speech-to-Text.png";
-import qrCodeScanner from "../../img/Qrcodescanner.PNG"
+import qrCodeScanner from "../../img/Qrcodescanner.PNG";
+import yoom from "../../img/Yoom.PNG";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -60,6 +61,12 @@ const Portfolio = () => {
           <a href="https://quickqrcodegenerator.vercel.app/" target="_blank" rel="noreferrer">
             <img src={qrCodeScanner} alt="Speech to text" />
             <div className="text-center">QR Code Generator</div>
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://zoom-clone-nextjs.vercel.app/sign-in" target="_blank" rel="noreferrer">
+            <img src={yoom} alt="Zoom clone" />
+            <div className="text-center">Zoom Clone</div>
           </a>
         </SwiperSlide>
       </Swiper>
